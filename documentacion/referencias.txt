@@ -1,0 +1,41 @@
+Comandos importantes:
+
+npx create-react-app <nombreDeLaApp>
+
+Nos crea un una app desde una base ya diseñada.
+
+
+Links consultados:
+
+React desde 0 canal midudev:
+https://www.youtube.com/watch?v=T_j60n1zgu0&feature=youtu.be
+
+
+How to do a social media app with react canal freeCodeCamp.org:
+https://www.youtube.com/watch?v=n1mdAPFq2Os&feature=youtu.be
+
+Reactjs curso canal fazt:
+https://www.youtube.com/watch?v=zIY87vU33aA&t=3s
+
+Conceptos importantes:
+
+MERN= MongoDB, Express, REACT, NodeJS 
+GrahpQL= Digamos quien hara las consultas al servidor.
+Ionic4= Framework para hacer aplicaciones en movil, ya es agnostico.
+Agnostico= No est├í casdo con alguna tecnolog├¡a o vendor.
+Vendor= Compa├▒ia que suministra, ofrece software.
+
+
+Link para el futuro:
+
+Crear un app con React usando npx create-react-app canal midudev:
+https://www.youtube.com/watch?v=QBLbXgeXMU8
+
+Nextjs curso canal fazt:
+https://www.youtube.com/watch?v=Tn6QYliFBcs&t=125s
+
+Ionic4 & angular canal fazt:
+Nota: Son varios videos.
+https://www.youtube.com/watch?v=MMRqyQVQ980&t=187s
+
+
