@@ -6,7 +6,7 @@
 |---|:---:|:---:|:---:|:---:|---|
 |npx create-react-app nombreDeLaApp|x|   |   |   | Nos crea un una app desde una base ya diseñada.|
 |clip < texto.**extencion**|  | x |  x |   | Te hace un Crtl+C de algun archivo sin tener que abrir el archivo, selecionar y copiar, más fácil.   |
-|echo "Algo que quieras" > archivo.**extencion**|   | x  |  x |   |   |
+|echo "Algo que quieras" > archivo.**extencion**|   | x  |  x |   | Te crea un archivo con algo que quieras poner dentro.  |
 
 ## Links cursos:
 
