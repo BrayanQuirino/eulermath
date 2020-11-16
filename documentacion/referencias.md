@@ -9,6 +9,7 @@
 |echo "Algo que quieras" > archivo.**extencion**|   | x  |  x |   | Te crea un archivo con algo que quieras poner dentro.  |
 |git config -e|||x||Te abre la configuracion de git para poder editarla. Ejemplo credentials.helper:store|
 |sudo npm cache clean -f</br>sudo npm install -g n</br>sudo n stable</br>sudo n latest||x|||Comandos para actulizar npm y nodejs|
+|git config credential.helper store|||||Nos guarda las credenciales en el disco para no tener que repetirlas en cada push|
 |||||||
 
 ## Links cursos:
