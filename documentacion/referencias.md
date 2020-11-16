@@ -7,6 +7,12 @@
 |npx create-react-app nombreDeLaApp|x|   |   |   | Nos crea un una app desde una base ya diseñada.|
 |clip < texto.**extencion**|  | x |  x |   | Te hace un Crtl+C de algun archivo sin tener que abrir el archivo, selecionar y copiar, más fácil.   |
 |echo "Algo que quieras" > archivo.**extencion**|   | x  |  x |   | Te crea un archivo con algo que quieras poner dentro.  |
+|git config -e|||x||Te abre la configuracion de git para poder editarla. Ejemplo credentials.helper:store|
+|sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
+sudo n latest||x|||Comandos para actulizar npm y nodejs|
+|||||||
 
 ## Links cursos:
 
