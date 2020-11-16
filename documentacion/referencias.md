@@ -8,10 +8,7 @@
 |clip < texto.**extencion**|  | x |  x |   | Te hace un Crtl+C de algun archivo sin tener que abrir el archivo, selecionar y copiar, más fácil.   |
 |echo "Algo que quieras" > archivo.**extencion**|   | x  |  x |   | Te crea un archivo con algo que quieras poner dentro.  |
 |git config -e|||x||Te abre la configuracion de git para poder editarla. Ejemplo credentials.helper:store|
-|sudo npm cache clean -f
-sudo npm install -g n
-sudo n stable
-sudo n latest||x|||Comandos para actulizar npm y nodejs|
+|sudo npm cache clean -f</br>sudo npm install -g n</br>sudo n stable</br>sudo n latest||x|||Comandos para actulizar npm y nodejs|
 |||||||
 
 ## Links cursos:
