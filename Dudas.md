@@ -6,4 +6,4 @@
 |FLIQUI|No se en que valores va esto o como se evalua|D26|Y (NVL(PERegOrden.f_liquida_pago, PEFOperacion) > TRUNC(SYSDATE)|En mi logica fechaOperacion seria el trunc(sysdate) fechaLiquidaPago > fechaOperacion|
 |HLIQUI|No supe como interpretar|D28|SYSDATE < TRUNC(SYSDATE) + (vlHora/24)|No lo puse|  
 |HORLIQ|No encontre unos valores|D22|No encontre estos valores:</br>vlHInicio > vlHactual ó vlHCierre < vlHactual|Invente los parametros</br>horaInicio y horaCierre y así los compare|
-|IMPSPE|Esta de plano me saco de onda totalmente jajaj en las validaciones en 2(los casos contrarios) evalua básicamente lo mismo que en el if, osea es como decir if (i=3) else if (i=3) jajajaja o de plano no supe como leerlo|D27|Toda la celda|No lo puse|
+|IMPSPE|Esta de plano me saco de onda totalmente jajaj en las validaciones en 2(los casos contrarios) evalua básicamente lo mismo que en el if, osea es como decir if (i=3) else if (i=3) jajajaja o de plano no supe como leerlo|D30:D38|Toda la celda|No lo puse|
