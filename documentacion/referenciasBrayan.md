@@ -9,7 +9,12 @@
 |echo "Algo que quieras" > archivo.**extencion**|   | x  |  x |   | Te crea un archivo con algo que quieras poner dentro.  |
 |git config -e|||x||Te abre la configuracion de git para poder editarla. Ejemplo credentials.helper:store|
 |sudo npm cache clean -f</br>sudo npm install -g n</br>sudo n stable</br>sudo n latest||x|||Comandos para actulizar npm y nodejs|
-|git config credential.helper store|||||Nos guarda las credenciales en el disco para no tener que repetirlas en cada push|
+|git config credential.helper store||x|x||Nos guarda las credenciales en el disco para no tener que repetirlas en cada push|
+|sudo ./filebeat -e -c /etc/filebeat/filebeat.yml -d "publish"||x|||Correr filebeat como en windows:</br>Situarse en la carpeta /usr/share/filebeat/bin y ejecutar</br>Si necesitamos correr de nuevo borrar la carpeta **data**|
+|sudo -u logstash /usr/share/logstash/bin/logstash -f /etc/logstash/conf.d/**filebeat.conf**||x|||Correr logstash como en windows pero solo un pipeline|
+|[Instalar filebeat](https://kifarunix.com/install-and-configure-filebeat-7-on-ubuntu-18-04-debian-9-8/)||x||||
+|[Instalar logstash](https://kifarunix.com/install-and-configure-logstash-7-on-ubuntu-18-debian-9-8/)||x||||
+|[Configurar grok](https://kifarunix.com/how-to-debug-logstash-grok-filters/)||x||||
 |||||||
 
 ## Links cursos:
