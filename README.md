@@ -1,3 +1,4 @@
 # Eulermath
 
-* Brayan Quirino
+* Brayan Quirino 
+* Banti Brandon
