@@ -2,3 +2,4 @@
 
 * Brayan Quirino 
 * Banti Brandon
+* Daniel Perez
