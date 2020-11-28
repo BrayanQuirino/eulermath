@@ -2,7 +2,7 @@
 
 ## Comandos importantes:
 
-|Comando|REACT|Ubuntu|  GIT | PostgreSQL |  Descripción |
+|Comando|REACT|Ubuntu|  GIT | Oracle |  Descripción |
 |---|:---:|:---:|:---:|:---:|---|
 |npx create-react-app nombreDeLaApp|x|   |   |   | Nos crea un una app desde una base ya diseñada.|
 |clip < texto.**extencion**|  | x |  x |   | Te hace un Crtl+C de algun archivo sin tener que abrir el archivo, selecionar y copiar, más fácil.   |
@@ -15,27 +15,25 @@
 |[Instalar filebeat](https://kifarunix.com/install-and-configure-filebeat-7-on-ubuntu-18-04-debian-9-8/)||x||||
 |[Instalar logstash](https://kifarunix.com/install-and-configure-logstash-7-on-ubuntu-18-debian-9-8/)||x||||
 |[Configurar grok](https://kifarunix.com/how-to-debug-logstash-grok-filters/)||x||||
+|git checkout .|||x||Borra los cambios que hayas hecho y te regresa al estado del repositorio remoto|
 |||||||
+
 
 ## Links cursos:
 
 React desde 0 canal midudev:
 - https://www.youtube.com/watch?v=T_j60n1zgu0&feature=youtu.be
 
-How to do a social media app with react canal <h>freeCodeCamp.org</h>:
-- https://www.youtube.com/watch?v=n1mdAPFq2Os&feature=youtu.be
-
 Reactjs curso canal fazt:
 - https://www.youtube.com/watch?v=zIY87vU33aA&t=3s
 
-## Información que puede ayudar
-Sintaxis de Markdown:
-- https://www.markdownguide.org/basic-syntax
+React redux,action,reducer,store curso 20 videos(cortos) canal gammafp
+- https://www.youtube.com/watch?v=mitOmHw5e0o 
 
-Generador de tablas markdwon:
-- https://www.tablesgenerator.com/markdown_tables#
+Crear un app con React usando npx create-react-app canal midudev:
+- https://www.youtube.com/watch?v=QBLbXgeXMU8
 
-## Conceptos importantes:
+## Conceptos y tutoriales importantes:
 |Concepto|Descipción|
 |---|---|
 |MERN|MongoDB, Express, REACT, NodeJS| 
@@ -43,12 +41,32 @@ Generador de tablas markdwon:
 |Ionic4|Framework para hacer aplicaciones en movil, ya es agnostico.|
 |Agnostico|No está casdo con alguna tecnología o vendor.|
 |Vendor|Compañia que suministra, ofrece software.|
+|Babel|Paquete que nos ayuda a trasncribir JSX a JS|
+|CRUD|Create, Read, Update, Delete|
+|hooks|"Manejador de componentes"|
+|useState()|Sirve para manejar el estado de un componente, es como set y get|
+|[Host para tu pagina con Github](https://www.youtube.com/watch?v=OUsC13AEiUQ)|Tutorial para construir tu proyecto React y subirlo a GitHub.io|
+|[Sintasix de Markdown](https://www.markdownguide.org/basic-syntax)||
+|[Generador de tablas markdown](https://www.tablesgenerator.com/markdown_tables#)||
+|[Login react](https://medium.com/swlh/persisting-data-with-redux-thunk-session-storage-in-react-application-9cc94549a1c)|Curso de react para hacer un login con paginacion, store, persintencia y onSubmit|
 
+
+## Paquetes cools:
+
+|Paquete|Función|Enlaces|
+|---|---|---|
+|react-bootstrap|bootstrap para react|[react-bootstrap](https://react-bootstrap.github.io/)|
+|react-date-picker|Te crea un compoente para escoger una fecha. Hay que cambiar locale("es-ES")|[react-date-picker](https://www.npmjs.com/package/react-date-picker)|
+|uuid|Te genera ids aleatorios del tipo string|[uuid](https://www.npmjs.com/package/uuid)|
+|mdbreact|Paquete que tiene componentes bastante cools solo que algunos componentes son de paga|[mdbreact](https://mdbootstrap.com/docs/react/getting-started/download/)|
+|react-redux|Es un puente entre react y redux|[reac-redux](https://www.npmjs.com/package/react-redux)|
+|react-router-dom|Nos permite cambiar de ruta (ejemplo: de /login a /home)|[react-router-dom](https://www.npmjs.com/package/react-router-dom)|
+|redux|De forma muy general nos permite guardar datos para usarlos después|[redux](https://www.npmjs.com/package/redux)|
 
 ## Links para el futuro:
 
-Crear un app con React usando npx create-react-app canal midudev:
-- https://www.youtube.com/watch?v=QBLbXgeXMU8
+How to do a social media app with react canal <h>freeCodeCamp.org</h>:
+- https://www.youtube.com/watch?v=n1mdAPFq2Os&feature=youtu.be
 
 Nextjs curso canal fazt:
 - https://www.youtube.com/watch?v=Tn6QYliFBcs&t=125s
@@ -56,5 +74,6 @@ Nextjs curso canal fazt:
 Ionic4 & angular canal fazt:</br>
 <h>Nota: Son varios videos.</h>
 - https://www.youtube.com/watch?v=MMRqyQVQ980&t=187s
+
 
 
