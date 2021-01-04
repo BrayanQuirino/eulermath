@@ -1,0 +1,24 @@
+{
+  "name": "eulermath",
+  "version": "1.0.0",
+  "description": "This is social network focused on knowlege of college's students",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrayanQuirino/eulermath.git"
+  },
+  "author": "Brandon Banti, Daniel Perez, Brayan Quirino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrayanQuirino/eulermath/issues"
+  },
+  "homepage": "https://github.com/BrayanQuirino/eulermath#readme",
+  "dependencies": {
+    "apollo-server": "^2.19.1",
+    "graphql": "^15.4.0",
+    "mongoose": "^5.11.9"
+  }
+}
