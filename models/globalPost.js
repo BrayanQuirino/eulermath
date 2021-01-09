@@ -1,20 +1,20 @@
 const {model, Schema}= require('mongoose');
 
-const globalPostSchema = new Schema({
+const globalPublicacionSchema = new Schema({
     body: String,
     nombreUsuario: String,
     creadoEl: String,
     comentarios:[
         {
             body:String,
-            usuario:String,
+            nombreUsuario:String,
             creadoEl:String
         }   
     ],
     likes:[
        {
             clase:String,
-            usuario:String,
+            nombreUsuario:String,
             creadoEl:String
        } 
     ],
@@ -22,6 +22,6 @@ const globalPostSchema = new Schema({
         type: Schema.Types.ObjectId,
         ref:'usuarios'
     }
-})
+},{collection: 'globalPost'});
 
-module.exports=  model('GlobalPost', globalPostSchema);
+module.exports=  model('GlobalPublicacion', globalPublicacionSchema);
