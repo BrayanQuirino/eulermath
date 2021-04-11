@@ -1,13 +1,23 @@
 const {gql} = require('apollo-server')
 
 module.exports = gql`
-    type GlobalPublicacion{
+    type post{
         id: ID!
         body: String!
-        nombreUsuario:String!
-        creadoEl:String!
+        userName:String!
+        createdAt:String!
     }
+    
+    input postInput{
+        body: String!
+        userName:String!
+    }
+
     type Query{
-        getPosts: [GlobalPublicacion]
+        getPosts: [post]
+    }
+
+    type Mutation{
+        createPost(input: postInput): [post]
     }
 `;

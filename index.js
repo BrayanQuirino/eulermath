@@ -1,23 +1,10 @@
 const {ApolloServer} = require('apollo-server');
 const mongoose = require('mongoose')
 
-const GlobalPublicacion = require('./models/GlobalPost')
+const resolvers = require('./graphql/resolvers')
 const {MONGODB} = require('./config')
 const typeDefs = require('./graphql/typeDefs')
 
-const resolvers ={
-    Query:{
-        async getPosts(){
-            try{
-                const posts = await GlobalPublicacion.find();
-                //console.log(posts);
-                return posts;
-            }catch (err){
-                throw new Error(err);
-            }
-        }
-    }
-}
 
 const server = new ApolloServer({
     /*tyDefs:typeDefs pero como tienen el mismo
@@ -26,7 +13,7 @@ const server = new ApolloServer({
     resolvers: resolvers
 })
 mongoose
-    .connect(MONGODB,{useNewUrlParser:true, useUnifiedTopology:true})
+    .connect(MONGODB,{useNewUrlParser: true,useUnifiedTopology: true,useFindAndModify: false,useCreateIndex: true})
     .then(()=>{
         console.log('MongoDB Connected')
         return server.listen({port:5000});
